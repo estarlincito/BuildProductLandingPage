@@ -1,0 +1,70 @@
+#produc a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+#produc p{
+    text-align: left;
+}
+
+#header-img {
+    margin: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+#iphone {
+    margin: 20px;
+}
+
+#AppleWatch {
+    margin: 20px;
+}
+
+#iphone h2::after{
+    content: '';
+    display: block;
+    background-color:red;
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#iphone h2::before{
+    content: '';
+    display: block;
+    background-color:red;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+#AppleWatch h2::after{
+    content: '';
+    display: block;
+    background-color:red;
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#AppleWatch h2::before{
+    content: '';
+    display: block;
+    background-color:red;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer a{
+    text-decoration: none
+}
+
+footer a:hover{
+    color: orange;
+}
+
